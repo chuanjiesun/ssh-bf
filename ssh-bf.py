@@ -102,11 +102,6 @@ if __name__ =='__main__':
 		print('may not a valid ip !')
 		sys.exit()
 	if (os.path.exists(user_file)) and (os.path.exists(pass_file)):
-		#if len(open(user_file).read()) > 0:
-		#	main(host,user_file,pass_file)
-		#else:
-		#	print('user file have no contents!')
-		#	sys.exit()
 		main(host,user_file,pass_file)
 	else:
 		print('user_file or pass_file may not exists !')
